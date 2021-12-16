@@ -1,0 +1,8 @@
+div{
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid red;
+    margin: 50px 30px 40px 50px;
+    padding: 20px 20px;
+    float: left;
+}
