@@ -1,0 +1,126 @@
+body {
+    margin: 0 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    text-align:center;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0%;
+    padding: 1em 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: tomato;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    border: 1px solid color:black;
+    margin: 0.5em 0;
+}
+
+.btn: hover {
+    background-color: black;
+    color: white;
+}
+
+#showcase .bg-image {
+    position: absolute; 
+    background: #333 url("../images/space.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#showcase h1 {
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+#showcase .content-wrap,
+#section-a .content-wrap {
+    padding: 0 1.5em;
+}
+
+/* Section A */
+#section-a {
+    background: #eaeaea;
+    color: #333;
+    padding-bottom: 2em;
+}
+
+/* Section B */
+#section-b {
+    padding: 2em 1em 1em;
+
+}
+
+#section-b ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#section-b li {
+    margin-bottom: 1em;
+    background: #fff;
+    color: #333;
+    width: 33%;
+    float: left;
+}
+
+.card-content {
+    padding: 1.5em;
+}
+
+/* Section C */
+#section-c {
+    background: #fff;
+    color: #333;
+    padding: 2em;
+}
+
+/* Section D / Boxes */
+#section-d .box {
+    padding: 2em;
+    color: #fff;
+}
+#section-d .box:first-child {
+    background: #2690d4;
+}
+
+/* Footer */
+#main-footer {
+    padding: 2em;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+#main-footer a {
+    color: #2690d4;
+    text-decoration: none;
+}
+
+/* Meni */
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 7px;
+}
