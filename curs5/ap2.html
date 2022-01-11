@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP2 Curs 5</title>
+    <style>
+        @media (max-width : 640px) {
+            .mobile{
+                display: block;
+            }
+            div:not(.mobile){
+                display: none;
+            }
+        }
+        @media(min-width : 641px) and (max-width > 768px) {
+            .tab{
+                display: block;
+            }
+            div:not(.tab){
+                display: none;
+            }
+        }
+        @media(min-width : 769px) and (max-width > 1223px) {
+            .laptop{
+                display: block;
+            }
+            div:not(.laptop){
+                display: none;
+            }
+        }
+        @media (min-width : 1224px) {
+            .desktop{
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+ <div class="desktop"> 
+     <img src="1.jpg" width="100%" alt="">
+ </div>
+ <div class="laptop"> 
+    <img src="2.jpg" width="100%" alt="">
+ </div>
+ <div class="tab">
+    <img src="3.png" width="100%" alt=""> 
+</div>
+ <div class="mobile">
+    <img src="4.jpg" width="100%" alt=""> 
+</div>
+</body>
+</html>

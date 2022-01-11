@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP3</title>
+</head>
+<body>
+    <h1>Formular Contact</h1>
+    <form action="">
+        <label for="oras">Orașul:</label>
+        <select name="oras" id="oras">
+            <option value="1">Selectează</option>
+            <option value="2">București</option>
+            <option value="3">Iași</option>
+            <option value="4">Timișoara</option>
+        </select>
+        <br>
+        <label for="curs">Cursul la care doriți să vă înscrieți:</label>
+        <select name="curs []" id="curs" multiple>
+            <option value="1">PHP</option>
+            <option value="2">JAVA</option>
+            <option value="3">HTML</option>
+            <option value="4">Photoshop</option>
+        </select>
+        <br>
+        <label for="mesaj">Mesaj:</label>
+        <textarea name="mesaj" id="mesaj" cols="20" rows="5"></textarea>
+        <br>
+        <label for="cv">CV:</label>
+        <input type="file" name="cv" id="cv">
+        <br>
+        <fieldset>
+            <legend>Program cursuri</legend>
+            <input type="radio" name="timpul" id="dimineata">dimineață</input>
+            <input type="radio" name="timpul" id="amiaza">la amiază</input>
+            <input type="radio" name="timpul" id="seara">seara</input>
+        </fieldset>
+        <br>
+        <input type="checkbox" name="termeni" id="termeni">
+        <label for="termeni">Termeni și condiții</label>
+        <input type="checkbox" name="abonament" id="abonament">
+        <label for="abonament">Vă abonați la noutăți</label>
+        <br>
+        <input type="submit" value="Trimite">
+    </form>
+</body>
+</html>
